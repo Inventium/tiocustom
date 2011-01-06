@@ -20,6 +20,11 @@
  * @global object $post
 */
 
+/* TIO custom functions */
+if (file_exists(THESIS_CUSTOM . '/fat_footer.php')){
+	include(THESIS_CUSTOM . '/fat_footer.php');
+}
+
 function custom_bookmark_links() {
 	global $post;
 ?>
