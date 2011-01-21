@@ -25,6 +25,10 @@ if (file_exists(THESIS_CUSTOM . '/fat_footer.php')){
 	include(THESIS_CUSTOM . '/fat_footer.php');
 }
 
+if (file_exists(THESIS_CUSTOM . '/header.php')){
+	include(THESIS_CUSTOM . '/header.php');
+}
+
 function custom_bookmark_links() {
 	global $post;
 ?>

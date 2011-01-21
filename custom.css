@@ -32,6 +32,7 @@ in the User's Guide:
 	background-position:top center;
 	background-repeat:repeat-x;
 	padding-top: 0px; padding-bottom: 0px;
+	height: 100%;
 }
 
 .custom #container {
@@ -66,8 +67,6 @@ in the User's Guide:
     border: 0 none;
     float: right;
     width: 250px;
-	background-color;
-	
 }
 
 .custom #page {
@@ -302,7 +301,7 @@ padding: 2px 10px;
 #footer {
     border: none;
 	padding:0;
-	height:0;
+	/*height:0;*/
 }
 
 .footer_custom {
@@ -453,6 +452,10 @@ width: 100%;
 	width:100%;
 	clear:both;
 	background-color:#f00;
+	/*height: 3em;
+    margin-top: -3em;
+    position: relative;*/
+
 }
 
 .custom .comments_closed {display: none;}
