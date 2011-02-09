@@ -459,3 +459,42 @@ width: 100%;
 }
 
 .custom .comments_closed {display: none;}
+
+/* aweber form customization */
+
+.af-form {
+width:100%!important;
+}
+
+.af-header {
+    background-color: #740704 !important;
+    border-bottom: 2px solid #3D0402 !important;
+    border-right: 10px solid #3D0402 !important;
+    border-top: 2px solid #3D0402 !important;
+    color: #FFFFFF !important;
+    font-family: verdana,tahoma,sans-serif !important;
+    /*font-size: 18px;*/
+    font-variant: normal;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding: 0px 15px !important;
+    text-shadow: 2px 2px 2px #3C0301 !important;
+}
+
+.af-footer {
+    height:0;
+    padding:0;
+    margin:0;
+}
+
+.af-form {
+background-color: transparent !important;
+}
+
+.AWeberWebformPlugin_printWidget {
+    margin-bottom: 0px !important;
+}
+
+.buttonContainer {
+    text-align: center !important;
+}
